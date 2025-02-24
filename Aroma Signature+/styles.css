@@ -1,0 +1,120 @@
+header {
+    background-color: #17672b;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-weight: medium;
+}
+.navbar-brand img {
+    height: 80px;
+}
+.search-bar {
+    flex-grow: 1;
+}
+@media (max-width: 768px) {
+    .search-bar {
+        margin-top: 10px;
+    }
+}
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+
+.content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin-top: 0;
+            padding-top: 0;
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+            width: 80%; /* Adjust image size */
+        }
+        .text-content {
+            text-align: justify;
+        }
+        @media (max-width: 768px) {
+            .text-content {
+                text-align: left;
+            }
+            h2 {
+              text-align: left; /* Align heading to the left */
+              margin-top: 10px; /* Reduce top space */
+          }
+          
+          .content {
+              padding-top: 8px; /* Remove extra padding above content */
+          }
+          
+          p {
+              text-align: justify; /* Justify the paragraph text */
+          }    
+        }
+        body, .container {
+            margin-top: 0;
+            padding-top: 0;
+        }
+
+
+
+
+/*shop button*/
+.shop-btn {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+   
+}
+.shop-btn:hover {
+    background: white;
+    transform: translateY(-3px);
+   
+}
+
+
+
+
+.see-more-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1e570f;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .see-more-btn:hover {
+    background-color: #e5ebe6;
+  }
+
+
+
+/*footer*/
+a {
+    text-decoration: none; /* Remove underline from all links */
+}
+footer p {
+    margin-bottom: 5px; /* Reduce space between contact details */
+}
+.social-icons a {
+    margin-right: 8px; /* Adjust spacing between icons */
+}
+.footer-section {
+    margin-bottom: 20px; /* Add space between sections */
+}
+.social-icons a {
+    margin-right: 8px; /* Adjust spacing between icons */
+    font-size: 24px; /* Increase icon size */
+}
